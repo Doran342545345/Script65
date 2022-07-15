@@ -1,0 +1,128 @@
+if game.PlaceId == 8628792096 then
+    local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/sol"))()
+    
+    local win = SolarisLib:New({
+        Name = "FiveR VIP | Made By Doran#6880",
+        FolderToSave = "SolarisLibStuff"
+    })
+    
+    local Main = win:Tab("Main")
+    
+    local sec = Main:Section("Main")
+    
+    sec:Button("Unlock all gamepasses", function()
+       SolarisLib:Notification("Idk", "Soms werkt t. bij kleding moet je spammen en dan werkt t soms")
+       wait(2)
+       game.Players.LocalPlayer.UserId = 2869009442
+    end)
+    
+    
+    
+    sec:Button("Remove FlitsPalen", function()
+        print("Clicked")
+        local Flitspaal = game:GetService("Players").LocalPlayer.PlayerGui.Flitspaal
+        if not Flitspaal then return end
+        for i,v in pairs(Flitspaal:GetChildren()) do
+        v:Destroy()
+        end
+        local Flitspaal =  game:GetService("Workspace").Flitspaal
+        if not Flitspaal then return end
+        for i,v in pairs(Flitspaal:GetChildren()) do
+        v:Destroy()
+        end
+        local Flitspaal =  game:GetService("StarterGui").Flitspaal
+        if not Flitspaal then return end
+        for i,v in pairs(Flitspaal:GetChildren()) do
+        v:Destroy()
+        end
+    
+    
+     end)
+    
+    sec:Button("Infinite Yield", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/tzTXmYf2'),true))()
+     end)
+    
+    
+    --Teleports
+    local Teleports = win:Tab("Teleports")
+    local sec = Teleports:Section("Teleports")
+    
+    sec:Button("CarDealer", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+     end)
+    
+    sec:Button("Haven", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2881.92773, 3.5744319, 165.619125, -0.424024612, 7.89632804e-09, -0.905650675, -4.84407167e-11, 1, 8.74163586e-09, 0.905650675, 3.75053899e-09, -0.424024612)
+     end)
+     sec:Button("PostNL", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1265.6261, 3.40597486, -9.96915531, 0.600614488, 6.42139497e-08, -0.799538732, -2.79557071e-08, 1, 5.93133755e-08, 0.799538732, -1.32728033e-08, 0.600614488)
+     end)
+    
+     sec:Button("Gevangenis", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-433.409302, -66.8376846, 824.214111, -1.44565539e-13, -4.24302904e-08, 1, -1.81473023e-08, 1, 4.24302904e-08, -1, -1.81473023e-08, -1.45335539e-13)
+     end)
+     sec:Button("ExplosiefShop", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3628.77246, 3.58363938, -173.572006, -0.86247623, -7.59203473e-08, -0.506097615, -3.18397682e-08, 1, -9.57509059e-08, 0.506097615, -6.646885e-08, -0.86247623)
+     end)
+     sec:Button("Eiland", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 6072.09961, 4.99999857, -200.039185, -0.920334995, -3.26133609e-08, 0.391131043, 2.10678852e-09, 1, 8.83394833e-08, -0.391131043, 8.21259505e-08, -0.920334995)
+     end)
+     sec:Button("ANWB", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1349.26746, 3.60583925, -1417.78857, 0.221643865, 4.11535659e-08, -0.975127697, 6.81588403e-08, 1, 5.76955763e-08, 0.975127697, -7.92514427e-08, 0.221643865 )
+     end)
+     sec:Button("WitWas", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2577.63379, -220.261322, -51.7854729, 0.775917113, 2.60017355e-11, -0.630834877, 1.74959016e-08, 1, 2.15609059e-08, 0.630834877, -2.7766502e-08, 0.775917113)
+     end)
+    
+     --Tools
+     local Tools = win:Tab("Tools")
+     local sec = Tools:Section("Tools")
+     sec:Button("€1000 Opnemen", function()
+        local ohString1 = "1000"
+        game:GetService("ReplicatedStorage").Geldmaat.Opnemen:FireServer(ohString1)
+     end)
+     sec:Button("€5000 Opnemen", function()
+        local ohString1 = "5000"
+        game:GetService("ReplicatedStorage").Geldmaat.Opnemen:FireServer(ohString1)
+     end)
+     sec:Button("€10000 Opnemen", function()
+        local ohString1 = "10000"
+        game:GetService("ReplicatedStorage").Geldmaat.Opnemen:FireServer(ohString1)
+     end)
+     sec:Button("€1000 Storten ", function()
+        local ohString1 = "1000"
+        game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(ohString1)
+     end)
+     sec:Button("€5000 Storten ", function()
+        local ohString1 = "5000"
+        game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(ohString1)
+     end)
+     sec:Button("€10000 Storten ", function()
+        local ohString1 = "10000"
+        game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(ohString1)
+     end)
+    
+    
+    
+     --[[local ohString1 = "1000"
+    
+     game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(ohString1)]]--
+    
+    
+     local Farm = win:Tab("Farm")
+     local sec = Farm:Section("Farm")
+    local toggle = sec:Toggle("Autofarm", false,"Toggle", function(t)
+       if toggle = true then
+    
+    
+       else
+          game.Players.LocalPlayer.Character.Humanoid.Health = 0
+    end)
+    
+     --Credits
+     local Credits = win:Tab("Credits")
+     local sec = Credits:Section("Credits")
+    
+        local label = sec:Label("Made By Doran#6880")
+    end
